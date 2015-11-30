@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -14,12 +15,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    shape.cpp
+    shape.cpp \
+    tetrahedron.cpp
 
 HEADERS  += mainwindow.h \
-    shape.h
+    shape.h \
+    tetrahedron.h
 
 
-FORMS    += mainwindow.ui
-
-LIBS += -LEigen
+# LIBS += -LEigen

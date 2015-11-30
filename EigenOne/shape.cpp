@@ -12,7 +12,7 @@ Shape::Shape(QWidget *parent):QWidget(parent){
 }
 
 void Shape::paintEvent(QPaintEvent *pe){
-    // 画一条直线
+        // 画一条直线
         QPainter painter(this);             // 创建QPainter一个对象
         QPen pen;
 
